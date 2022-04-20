@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: spartan500;
+    src: url("../assets/font/Spartan\ Medium\ 500.ttf");
+}
+@font-face {
+    font-family: spartan400;
+    src: url("../assets/font/Spartan\ Regular\ 400.ttf");
+}
+@font-face {
+    font-family: Gabriel_Weiss;
+    src: url("../assets/font/GABRWFFR.TTF");
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #6f6e50;
+}
+.main-container{
+    background-image: url("../assets/images/Background.svg");
+    background-size: cover;
+}
+.center-container{
+    display: flex;
+    justify-content: center;
+}
+.container-content{
+    max-width: 1400px;
+}
+
+/* header start */
+.header{
+    width: 1067px;
+    margin-top:32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+}
+.home{
+    background-color: #535141;
+}
+
+.header-links .navigation{
+    margin-right: 60px;
+}
+.header-links .navigation .flex-nav-content a{
+    padding: 8px 12px;
+    font-size: 16px;
+    font-family: spartan500;
+    line-height: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+}
+.header-links .navigation .flex-nav-content a:hover{
+    background-color: #535141;
+}
+
+.header .header-links .social_links .flex-links a{
+    padding: 0px 10px;
+}
+/* .header .header-links .social_links .flex-links a:first-child{
+    padding-left: 0px;
+} */
+.header .header-links .social_links .flex-links a:last-child{
+    padding-right: 0px;
+}
+/* header end */
+
+/* wangs */
+
+.wangs{
+    margin-top: 130px;
+    padding: 0px 23px;
+}
+
+/* inception start */
+.inception{
+    position: relative;
+}
+.top-image{
+    position: absolute;
+    top: -248px;
+    right: 15px;
+}
+.inception-container{
+    margin-top:248px;
+    border: 4px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+.inception-image{
+    position: absolute;
+    bottom:-8px;
+}
+.inception-text{
+    margin-left: 527px;
+    padding: 60px 0px;
+    padding-right: 100px;
+}
+.inception-text h3{
+    font-size: 53px;
+    font-family: Gabriel_Weiss;
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: #E3DBC6;
+}
+.inception-text p{
+    font-size: 14px;
+    font-family: spartan400;
+}
+/* inception end */
