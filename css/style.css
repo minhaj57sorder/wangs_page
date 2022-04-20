@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 @font-face {
+    font-family: spartan600;
+    src: url("../assets/font/Spartan\ SemiBold\ 600.ttf");
+}
+@font-face {
     font-family: spartan500;
     src: url("../assets/font/Spartan\ Medium\ 500.ttf");
 }
@@ -148,6 +152,7 @@ body{
 }
 .faq-section .faq-cotent .faq-heading{
     position: relative;
+    font-family: spartan600;
 }
 .faq-section .faq-cotent .faq-heading .chevron{
     position: absolute;
