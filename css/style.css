@@ -12,6 +12,10 @@
     src: url("../assets/font/Spartan\ Regular\ 400.ttf");
 }
 @font-face {
+    font-family: sora;
+    src: url("../assets/font/Sora-VariableFont_wght.ttf");
+}
+@font-face {
     font-family: Gabriel_Weiss;
     src: url("../assets/font/GABRWFFR.TTF");
 }
@@ -29,6 +33,9 @@ body{
     justify-content: center;
 }
 .container-content{
+    max-width: 1400px;
+}
+.max-content{
     max-width: 1400px;
 }
 
@@ -118,3 +125,34 @@ body{
     font-family: spartan400;
 }
 /* inception end */
+
+.faq-section{
+    width: 872px;
+    margin-top: 142px;
+}
+.faq-section h3{
+    text-align: center;
+    font-family: sora;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 42px;
+}
+.faq-section .faq-cotent{
+    padding: 15px 20px;
+    background: #E3DBC6;
+    border: 3px solid #29291B;
+    box-sizing: border-box;
+    border-radius: 26px 10px 10px 10px;
+    margin-bottom: 24px;
+}
+.faq-section .faq-cotent .faq-heading{
+    position: relative;
+}
+.faq-section .faq-cotent .faq-heading .chevron{
+    position: absolute;
+    right:0;
+}
+.faq-section .faq-cotent .faq-text{
+    margin-top: 24px;
+}
