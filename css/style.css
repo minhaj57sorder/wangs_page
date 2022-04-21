@@ -53,10 +53,6 @@ body {
     max-width: 1400px;
 }
 
-section {
-    overflow: hidden;
-}
-
 /* header start */
 .header {
     width: 1067px;
