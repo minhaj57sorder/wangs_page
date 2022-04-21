@@ -2,6 +2,7 @@ const faq_heading = document.querySelectorAll(".faq-heading");
 
 
 faq_heading.forEach(e => {
+
     e.onclick = () => {
         e.parentNode.classList.toggle("collapsed")
         var content = e.nextElementSibling;
@@ -24,4 +25,25 @@ menu_expand.onclick = () => {
 }
 collaps_menu.onclick = () => {
     header_links.classList.add("header-collapsed-mobile")
+}
+
+gsap.to("#shine", { x: 800, repeat: -1, repeatDelay: 3 })
+
+gsap.set("#bardial>*", { opacity: 0 })
+gsap.to("#bardial>*", { opacity: 1, duration: 0.05, repeat: -1, yoyo: true, stagger: { each: 0.02, from: "end" } })
+
+gsap.timeline({ repeat: -1, repeatDelay: 2 })
+    .to("#testicle1", { x: 20, duration: 0.1, repeat: 10, yoyo: true }, "testicle")
+    .to("#testicle1", { y: 20, duration: 0.05, repeat: 20, yoyo: true }, "testicle")
+    .to("#testicle2", { x: -20, duration: 0.1, repeat: 10, yoyo: true }, "testicle")
+    .to("#testicle2", { y: 20, duration: 0.05, repeat: 20, yoyo: true }, "testicle")
+
+const bubble = document.querySelector("#bubble")
+gsap.set(bubble, { transformOrigin: "center" })
+
+bubble.onmouseover = () => {
+    gsap.to(bubble, { scale: 2, duration: 4 })
+}
+bubble.onmouseleave = () => {
+    gsap.to(bubble, { scale: 1, duration: 4 })
 }
