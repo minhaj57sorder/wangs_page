@@ -36,8 +36,18 @@ body {
 }
 
 .main-container {
-    background-image: url("../assets/images/Background.svg");
-    background-size: cover;
+    /* background-image: url("../assets/images/Background.svg");
+    background-size: cover; */
+    position: relative;
+}
+
+#paralax {
+    position: fixed;
+    top: 0;
+}
+
+#paralax img {
+    width: 100vw;
 }
 
 .center-container {
