@@ -53,9 +53,6 @@ body {
     max-width: 1400px;
 }
 
-section {
-    overflow: hidden;
-}
 
 /* header start */
 .header {
@@ -154,9 +151,8 @@ section {
 
 /* wangs start */
 .wangs-section {
-    margin-top: 130px;
-    padding: 0px 23px;
-    width: 800px;
+    margin-top: 60px;
+    width: 1067px;
     position: relative;
 }
 
@@ -168,9 +164,9 @@ section {
     background-color: #fff0cf;
     border: 5px solid #000000;
     z-index: 1;
-    left: 16px;
-    top: 400px;
-    transform: scale(0.7);
+    left: 153px;
+    top: 762px;
+    transform: scale(1);
     opacity: 1;
 }
 
@@ -277,6 +273,7 @@ section {
 .inception-text p {
     font-size: 14px;
     font-family: spartan400;
+    color: #fff;
 }
 
 /* inception end */
@@ -436,7 +433,18 @@ section {
     }
 
     /* header end */
+    /* wangs section start */
+    .wangs-section {
+        width: 760px;
+    }
 
+    .wangs-section .wangs-text-container {
+        left: 0px;
+        top: 407px;
+        transform: scale(.7);
+    }
+
+    /* wangs section end */
 
     /* inception start */
     .inception {
@@ -594,17 +602,18 @@ section {
 
     /* wangs section start */
     .wangs-section {
-        width: 480px;
+        width: 660px;
+        margin-top: 40px;
     }
 
     .wangs-section .wangs-text-container {
-        left: -142px;
-        top: 56px;
-        transform: scale(0.45);
+        left: -52px;
+        top: 311px;
+        transform: scale(0.65);
     }
 
     #testicles_layer {
-        margin-top: -10px;
+        margin-top: -40px;
     }
 
     /* wangs section end */
@@ -685,21 +694,41 @@ section {
     /* footer section end */
 }
 
+@media screen and (max-width:680px) {
+
+    /* wangs start */
+    .wangs-section {
+        width: 570px;
+    }
+
+    .wangs-section .wangs-text-container {
+        left: -98px;
+        top: 226px;
+        transform: scale(0.6);
+    }
+
+    #testicles_layer {
+        margin-top: -12px;
+    }
+
+    /* wangs end */
+}
+
 @media screen and (max-width:480px) {
 
     /* wangs start */
     .wangs-section {
-        width: 360px;
+        width: 455px;
     }
 
     .wangs-section .wangs-text-container {
-        left: -202px;
-        top: -100px;
-        transform: scale(0.29);
+        left: -159px;
+        top: 81px;
+        transform: scale(0.47);
     }
 
     #testicles_layer {
-        margin-top: -44px;
+        margin-top: -11px;
     }
 
     /* wangs end */
@@ -737,4 +766,72 @@ section {
     }
 
     /* footer end */
+}
+
+@media screen and (max-width:480px) {
+
+    /* wangs start */
+    .wangs-section {
+        width: 392px;
+    }
+
+    .wangs-section .wangs-text-container {
+        left: -188px;
+        top: 6px;
+        transform: scale(0.4);
+    }
+
+    #testicles_layer {
+        margin-top: -11px;
+    }
+
+    /* wangs end */
+}
+
+@media screen and (max-width:412px) {}
+
+@media screen and (max-width:385px) {
+    .inception {
+        width: 360px;
+    }
+
+    /* wangs start */
+    .wangs-section {
+        width: 350px;
+    }
+
+    .wangs-section .wangs-text-container {
+        left: -210px;
+        top: -47px;
+        transform: scale(0.35);
+    }
+
+    #testicles_layer {
+        margin-top: -11px;
+    }
+
+    /* wangs end */
+}
+
+@media screen and (max-width:320px) {
+    .inception {
+        width: 320px;
+    }
+
+    /* wangs start */
+    .wangs-section {
+        width: 300px;
+    }
+
+    .wangs-section .wangs-text-container {
+        left: -230px;
+        top: -100px;
+        transform: scale(0.3);
+    }
+
+    #testicles_layer {
+        margin-top: -11px;
+    }
+
+    /* wangs end */
 }

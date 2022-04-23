@@ -47,3 +47,14 @@ bubble.onmouseover = () => {
 bubble.onmouseleave = () => {
     gsap.to(bubble, { scale: 1, duration: 4 })
 }
+
+
+const parallax = document.getElementById("paralax");
+
+window.addEventListener("scroll", function () {
+    let speedlimiter = 100;
+    if (window.screen.width <= 678) speedlimiter = 20;
+    let offset = this.window.pageYOffset;
+    gsap.to(parallax, { duration: 0.3, backgroundPositionY: offset / speedlimiter })
+})
+console.log()
