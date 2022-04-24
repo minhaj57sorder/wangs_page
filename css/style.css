@@ -369,6 +369,18 @@ body {
     background-color: #29291B;
     margin-right: 24px;
     border-radius: 10px;
+    box-shadow: 0 0 0 0px rgba(41, 41, 27, .1),
+        0 0 0 0px rgba(41, 41, 27, .1),
+        0 0 0 0px rgba(41, 41, 27, .1),
+        0 0 0 0px rgba(41, 41, 27, .1);
+    transition: 1s;
+}
+
+.as-seen-in-section .as-seen-in-boxes .box:hover {
+    box-shadow: 0 0 0 10px rgba(41, 41, 27, .1),
+        0 0 0 20px rgba(41, 41, 27, .1),
+        0 0 0 30px rgba(41, 41, 27, .1),
+        0 0 0 40px rgba(41, 41, 27, .1);
 }
 
 .as-seen-in-section .as-seen-in-boxes .box:last-child {
