@@ -32,7 +32,11 @@ collaps_menu.onclick = () => {
 gsap.to("#shine", { x: 800, duration: 2, repeat: -1, repeatDelay: 3 })
 
 gsap.set("#bardial>*", { opacity: 0 })
+<<<<<<< HEAD
 gsap.to("#bardial>*", { opacity: 1, duration: 0.01, repeat: -1, repeatDelay: 0.5, stagger: { each: 0.05, from: "end" } })
+=======
+gsap.to("#bardial>*", { opacity: 1, duration: 0.01, repeat: 1, repeatDelay: 0.5, yoyo: true, stagger: { each: 0.05, from: "end" } })
+>>>>>>> 345f1a81c0dcc01a5cfe839158b28b6822ccd5fc
 
 const bubble = document.querySelector("#bubble")
 gsap.set(bubble, { transformOrigin: "center" })
