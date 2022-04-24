@@ -32,7 +32,7 @@ collaps_menu.onclick = () => {
 gsap.to("#shine", { x: 800, duration: 2, repeat: -1, repeatDelay: 3 })
 
 gsap.set("#bardial>*", { opacity: 0 })
-gsap.to("#bardial>*", { opacity: 1, duration: 0.01, repeat: -1, repeatDelay: 0.5, yoyo: true, stagger: { each: 0.05, from: "end" } })
+gsap.to("#bardial>*", { opacity: 1, duration: 0.01, repeat: -1, repeatDelay: 0.5, stagger: { each: 0.05, from: "end" } })
 
 const bubble = document.querySelector("#bubble")
 gsap.set(bubble, { transformOrigin: "center" })
@@ -52,8 +52,8 @@ const testicles = document.getElementById("testicles");
 testicles.onclick = () => {
     gsap.timeline()
         .to("#testicle1, #testicle2", { scaleY: 0 })
-        .fromTo("#testicles_layer", { x: -10 }, { x: 10, duration: 0.1, repeat: 100, yoyo: true }, "testicle")
-        .to("#testicles_layer", { y: -20, duration: 0.05, repeat: 200, yoyo: true }, "testicle")
+        .fromTo("#testicles_layer", { x: -10 }, { x: 10, duration: 0.2, repeat: 50, yoyo: true }, "testicle")
+        .to("#testicles_layer", { y: -20, duration: 0.1, repeat: 100, yoyo: true }, "testicle")
         .to("#testicles_layer", { x: 0, y: 0 })
 }
 // testicles start
