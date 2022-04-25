@@ -175,7 +175,6 @@ body {
     z-index: 1;
     left: 153px;
     top: 762px;
-    transform: scale(1);
     opacity: 1;
 }
 
@@ -461,9 +460,13 @@ body {
     }
 
     .wangs-section .wangs-text-container {
-        left: 0px;
-        top: 407px;
-        transform: scale(.7);
+        left: 56px;
+        top: 546px;
+        width: 644px;
+    }
+
+    #testicles_layer {
+        margin-top: 143px;
     }
 
     /* wangs section end */
@@ -629,13 +632,25 @@ body {
     }
 
     .wangs-section .wangs-text-container {
-        left: -52px;
-        top: 311px;
-        transform: scale(0.65);
+        left: 59px;
+        top: 466px;
+        width: 544px;
     }
 
     #testicles_layer {
-        margin-top: -40px;
+        margin-top: 237px;
+    }
+
+    .wangs-text-container .wangs-heading {
+        margin-top: 40px;
+        font-size: 36px;
+        -webkit-text-stroke: 1px #000000;
+    }
+
+    .wangs-text-content-box {
+        margin-left: 75px;
+        margin-top: 33px;
+        border-left: 4px solid #000000;
     }
 
     /* wangs section end */
@@ -720,17 +735,45 @@ body {
 
     /* wangs start */
     .wangs-section {
-        width: 570px;
+        width: 480px;
     }
 
     .wangs-section .wangs-text-container {
-        left: -98px;
-        top: 226px;
-        transform: scale(0.6);
+        left: 31px;
+        top: 344px;
+        width: 413px;
     }
 
     #testicles_layer {
-        margin-top: -12px;
+        margin-top: 424px;
+    }
+
+    .wangs-text-container .wangs-heading {
+        font-size: 26px;
+        -webkit-text-stroke: 0.5px #000000;
+    }
+
+    .wangs-text-content-box {
+        padding-right: 10px;
+        margin-left: 42px;
+        margin-top: 29px;
+        border-left: 3px solid #000000;
+    }
+
+    .wangs-text-content-box .circled-image img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .wangs-text-content-box .circled-image {
+        margin-left: -27px;
+    }
+
+    .wangs-text-content-box .circled-image h4 {
+        font-family: Gabriel_Weiss;
+        font-weight: 400;
+        font-size: 20px;
+        -webkit-text-stroke: 0.5px;
     }
 
     /* wangs end */
@@ -740,17 +783,21 @@ body {
 
     /* wangs start */
     .wangs-section {
-        width: 455px;
+        width: 392px;
     }
 
     .wangs-section .wangs-text-container {
-        left: -159px;
-        top: 81px;
-        transform: scale(0.47);
+        left: 19px;
+        top: 277px;
+        width: 348px;
     }
 
     #testicles_layer {
-        margin-top: -11px;
+        margin-top: 511px;
+    }
+
+    .wangs-text-container .wangs-heading {
+        font-size: 22px;
     }
 
     /* wangs end */
@@ -790,26 +837,6 @@ body {
     /* footer end */
 }
 
-@media screen and (max-width:480px) {
-
-    /* wangs start */
-    .wangs-section {
-        width: 392px;
-    }
-
-    .wangs-section .wangs-text-container {
-        left: -188px;
-        top: 6px;
-        transform: scale(0.4);
-    }
-
-    #testicles_layer {
-        margin-top: -11px;
-    }
-
-    /* wangs end */
-}
-
 @media screen and (max-width:412px) {}
 
 @media screen and (max-width:385px) {
@@ -825,7 +852,7 @@ body {
     .wangs-section .wangs-text-container {
         left: -210px;
         top: -47px;
-        transform: scale(0.35);
+        /* transform: scale(0.35); */
     }
 
     #testicles_layer {
@@ -848,7 +875,7 @@ body {
     .wangs-section .wangs-text-container {
         left: -230px;
         top: -100px;
-        transform: scale(0.3);
+        /* transform: scale(0.3); */
     }
 
     #testicles_layer {
