@@ -39,7 +39,7 @@ gsap.set("#bardial>*", { opacity: 0 })
 
 gsap.timeline({ repeat: -1, repeatDelay: 3, })
     .to("#bardial>*", { opacity: 1, duration: 0.01, stagger: { each: 0.05, from: "end" } })
-    .to("#bardial>*", { opacity: 0, duration: 0.5 })
+    .to("#bardial>*", { opacity: 0, duration: 1 })
 
 
 const bubble = document.querySelector("#bubble")
