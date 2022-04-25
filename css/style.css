@@ -168,13 +168,14 @@ body {
 .wangs-section .wangs-text-container {
     position: absolute;
     width: 764px;
-    height: 920px;
+    padding-bottom: 24px;
     border-radius: 50px;
     background-color: #fff0cf;
     border: 5px solid #000000;
     z-index: 1;
-    left: 153px;
     top: 762px;
+    left: 50%;
+    transform: translateX(-50%);
     opacity: 1;
 }
 
@@ -460,7 +461,6 @@ body {
     }
 
     .wangs-section .wangs-text-container {
-        left: 56px;
         top: 546px;
         width: 644px;
     }
@@ -632,13 +632,12 @@ body {
     }
 
     .wangs-section .wangs-text-container {
-        left: 59px;
         top: 466px;
         width: 544px;
     }
 
     #testicles_layer {
-        margin-top: 237px;
+        margin-top: 227px;
     }
 
     .wangs-text-container .wangs-heading {
@@ -739,17 +738,16 @@ body {
     }
 
     .wangs-section .wangs-text-container {
-        left: 31px;
         top: 344px;
         width: 413px;
     }
 
     #testicles_layer {
-        margin-top: 424px;
+        margin-top: 380px;
     }
 
     .wangs-text-container .wangs-heading {
-        font-size: 26px;
+        font-size: 30px;
         -webkit-text-stroke: 0.5px #000000;
     }
 
@@ -787,17 +785,16 @@ body {
     }
 
     .wangs-section .wangs-text-container {
-        left: 19px;
         top: 277px;
         width: 348px;
     }
 
     #testicles_layer {
-        margin-top: 511px;
+        margin-top: 540px;
     }
 
     .wangs-text-container .wangs-heading {
-        font-size: 22px;
+        font-size: 30px;
     }
 
     /* wangs end */
@@ -850,13 +847,12 @@ body {
     }
 
     .wangs-section .wangs-text-container {
-        left: -210px;
-        top: -47px;
-        /* transform: scale(0.35); */
+        top: 247px;
+        width: 294px;
     }
 
     #testicles_layer {
-        margin-top: -11px;
+        margin-top: 699px;
     }
 
     /* wangs end */
@@ -869,17 +865,30 @@ body {
 
     /* wangs start */
     .wangs-section {
-        width: 300px;
+        width: 260px;
     }
 
     .wangs-section .wangs-text-container {
-        left: -230px;
-        top: -100px;
-        /* transform: scale(0.3); */
+        left: 50%;
+        transform: translateX(-50%);
+        top: 214px;
+        width: 80%;
     }
 
     #testicles_layer {
-        margin-top: -11px;
+        margin-top: 1005px;
+    }
+
+    .wangs-text-container .wangs-heading {
+        font-size: 24px;
+    }
+
+    .wangs-text-content-box .circled-image h4 {
+        font-size: 17px;
+    }
+
+    .wangs-text-content h4 {
+        font-size: 12px;
     }
 
     /* wangs end */
