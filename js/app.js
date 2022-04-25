@@ -65,3 +65,17 @@ testicles.onclick = () => {
         .to("#testicles_layer", { x: 0, y: 0 })
 }
 // testicles start
+
+// inception
+
+gsap.set(".inception .top-image", { opacity: 0 })
+
+gsap.timeline({
+    scrollTrigger: {
+        trigger: '.inception .top-image img',
+        toggleActions: "play none none none",
+        start: "start center"
+    }
+})
+    .to(".inception .top-image", { opacity: 1, duration: 0.5, repeat: 4, yoyo: true })
+    .to(".inception .top-image", { opacity: 0, duration: 0.1 }, "+=5")
