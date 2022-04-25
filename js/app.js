@@ -2,7 +2,7 @@
 const faq_heading = document.querySelectorAll(".faq-heading");
 faq_heading.forEach(e => {
     var content = e.nextElementSibling;
-    if (e.parentNode.classList[1] !== "collapsed") {
+    if (!e.parentNode.classList.contains("collapsed")) {
         content.style.marginTop = "24px";
         content.style.maxHeight = content.scrollHeight + "px";
     }
